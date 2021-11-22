@@ -8,8 +8,10 @@ tags:
 - punctuation prediction
 license: MIT
 widget:
-- text: "My name is Clara and I live in Berkeley California"
 - text: "Ist das eine Frage Frau Müller"
+  example_title: "German"
+- text: "My name is Clara and I live in Berkeley California"
+  example_title: "English"
 metrics:
 - f1
 ---
