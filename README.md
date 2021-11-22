@@ -6,6 +6,7 @@ language:
 - it
 tags:
 - punctuation prediction
+- punctuation
 datasets: wmt/europarl
 license: MIT
 widget:
