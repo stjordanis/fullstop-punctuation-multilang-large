@@ -6,6 +6,7 @@ language:
 - it
 tags:
 - punctuation prediction
+datasets: wmt/europarl
 license: MIT
 widget:
 - text: "Ist das eine Frage Frau Müller"
