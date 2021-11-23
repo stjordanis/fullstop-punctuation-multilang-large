@@ -22,7 +22,7 @@ metrics:
 - f1
 ---
 
-This model predicts the punctuation of plain text written in English, Italian, French and German. We developed it to restore the punctuation of transcribed spoken language. 
+This model predicts the punctuation of English, Italian, French and German texts. We developed it to restore the punctuation of transcribed spoken language. 
 
 This multilanguage model was trained on the [Europarl Dataset](https://huggingface.co/datasets/wmt/europarl) provided by the [SEPP-NLG Shared Task](https://sites.google.com/view/sentence-segmentation). *Please note that this dataset consists of political speeches. Therefore the model might perform differently on texts from other domains.*
 
@@ -44,7 +44,7 @@ The model achieves the following F1 scores for the different languages. The perf
 
 
 ## References
-
+```
 @article{guhr-EtAl:2021:fullstop,
   title={FullStop: Multilingual Deep Models for Punctuation Prediction},
   author    = {Guhr, Oliver  and  Schumann, Anne-Kathrin  and  Bahrmann, Frank  and  Böhme, Hans Joachim},
@@ -55,4 +55,4 @@ The model achieves the following F1 scores for the different languages. The perf
   publisher      = {CEUR Workshop Proceedings},  
   url       = {http://ceur-ws.org/Vol-2957/sepp_paper4.pdf}
 }
-
+```
