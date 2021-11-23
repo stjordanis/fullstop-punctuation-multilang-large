@@ -30,7 +30,7 @@ The model restores the following punctuation markers: **"." "," "?" "-" ":"**
 
 ## Results 
 
-The model achieves the following F1 scores for the different languages. The performance differs for the single punctuation markers. Hyphens and colons, in many cases, are optional and can be substituted by either a comma or a full stop.
+The performance differs for the single punctuation markers as hyphens and colons, in many cases, are optional and can be substituted by either a comma or a full stop. The model achieves the following F1 scores for the different languages:
 
 | Label         | EN    | DE    | FR    | IT    |
 | ------------- | ----- | ----- | ----- | ----- |
